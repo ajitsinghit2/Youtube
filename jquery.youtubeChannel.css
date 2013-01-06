@@ -1,0 +1,99 @@
+body{
+font-family: helvetica;
+}
+
+.youtube-channel-holder { 
+width: 700px; 
+font-size: 14px; 
+}
+
+.youtube-channel-holder .youtube-channel-list { 
+background-color:  #ffffff; 
+list-style-position: outside; 
+list-style-type: none; 
+margin: 0; 
+padding: 0;
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-title { 
+height: 50px; 
+padding-top: 14px; 
+padding-bottom: 14px; 
+line-height: 50px; 
+font-size: 50px; 
+font-weight: bold; 
+text-align: center; 
+color: #000000; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-title a { 
+text-decoration: none; 
+color: #000000; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-title a:hover { 
+text-shadow: 1px 1px 2px #000000; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video { 
+padding: 2px 4px; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video:hover { 
+background-color: #000000; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a { 
+display: block; 
+overflow: hidden; 
+text-decoration: none; 
+color: #fff; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a .thumb-wrap { 
+position: relative; 
+float: left; 
+margin: 0 6px 0 0; 
+padding: 4px; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a .thumb-wrap img.vid-thumb { 
+width: 480px;
+height: 360px; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a .vid-details { 
+position: relative; 
+float: left; 
+width: 180px; 
+height: 82px; 
+color: #000000; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a .vid-details span.vid-title { 
+position: absolute; 
+top: 0; 
+left: 0; 
+font-size: 20px; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a .vid-details span.vid-views { 
+position: absolute; 
+padding-top: 100px;
+font-size: 20px; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video a .thumb-wrap span.vid-duration { 
+position: absolute; 
+padding-top: 100px;
+font-size: 20px; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video:hover { 
+background-color: red; 
+}
+
+.youtube-channel-holder .youtube-channel-list .youtube-channel-video:hover a .vid-details span.vid-title { 
+text-decoration: underline; 
+}
+
